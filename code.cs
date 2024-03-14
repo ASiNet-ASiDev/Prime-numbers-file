@@ -31,7 +31,7 @@ using (var stream = File.Create(path))
 }
 
 Console.WriteLine($"[{DateTime.Now:T}] => [END]");
-Console.WriteLine($"[{DateTime.Now:T}] => [FILE: {Path.Join(AppDomain.CurrentDomain.BaseDirectory, "result.txt")}]");
+Console.WriteLine($"[{DateTime.Now:T}] => [FILE: {path}]");
 
 Console.ReadKey();
 
